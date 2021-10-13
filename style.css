@@ -1,0 +1,88 @@
+body {
+  margin: 0em;
+}
+
+#container {
+  display: grid;
+  grid-template-rows: 5em 50em;
+  width: 100%;
+  background-color: rgb(137, 231, 238);
+}
+
+#otsikko {
+  display: grid;
+  grid-template-columns: 20% 50% 20%;
+}
+
+#kalenteri {
+  display: grid;
+  grid-template-rows: 8% 90%;
+}
+
+#viikonpaivat {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-size: 175%;
+  text-align: center;
+  padding-top: 1%;
+  color: white;
+}
+
+#paivamaarat {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#paivamaarat div {
+  border: 2px solid green;
+  height: 80%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+#paivamaarat div:hover {
+  cursor: pointer;
+  border: 2px solid yellow;
+}
+
+#entinen,
+#tuleva {
+  border: 1px solid gray;
+  opacity: 0.3;
+}
+
+#tamapaiva {
+  background-color: rgba(91, 253, 91, 0.74);
+}
+
+#edellinen {
+  border-radius: 40%;
+  height: 50%;
+  margin: 5% 5% 5% 20%;
+}
+
+#kuukausi {
+  text-align: center;
+  font-size: 300%;
+  padding-top: 1%;
+  color: darkorange;
+}
+
+#seuraava {
+  border-radius: 40%;
+  height: 50%;
+  margin: 5% 5% 5% 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  #kuukausi {
+    font-size: 200%;
+  }
+
+  #viikonpaivat {
+    font-size: 100%;
+  }
+}
