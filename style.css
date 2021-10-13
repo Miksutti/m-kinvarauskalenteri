@@ -5,13 +5,15 @@ body {
 #container {
   display: grid;
   grid-template-rows: 5em 50em;
-  width: 100%;
+  width: 90%;
   background-color: rgb(137, 231, 238);
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #otsikko {
   display: grid;
-  grid-template-columns: 20% 50% 20%;
+  grid-template-columns: 25% 50% 25%;
 }
 
 #kalenteri {
@@ -61,7 +63,7 @@ body {
 #edellinen {
   border-radius: 40%;
   height: 50%;
-  margin: 5% 5% 5% 20%;
+  margin: 5% 5% 5% 30%;
 }
 
 #kuukausi {
@@ -74,10 +76,16 @@ body {
 #seuraava {
   border-radius: 40%;
   height: 50%;
-  margin: 5% 5% 5% 40%;
+  margin: 5% 5% 5% 30%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
+  #container {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
   #kuukausi {
     font-size: 200%;
   }
