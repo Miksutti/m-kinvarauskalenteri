@@ -9,11 +9,13 @@ function lataaKalenteri(){
     const edellinenVikaPaiva = new Date(date.getFullYear(),date.getMonth(),0).getDate();
 
 
-    const ekaPaivaIndex = date.getDay() + 2;
+    const ekaPaivaIndex = date.getDay() + 1;
 
     const vikaPaivaIndex = new Date(date.getFullYear(),date.getMonth() + 1, 0).getDay();
 
-    const tulevatPaivat = 7 - vikaPaivaIndex - 1
+    const tulevatPaivat = 7 - vikaPaivaIndex
+
+
 
     const kuukaudet = [
         "Tammikuu",
