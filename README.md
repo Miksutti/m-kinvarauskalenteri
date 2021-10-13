@@ -1,7 +1,7 @@
 # mokinvarauskalenteri
 
 1. Kenelle sivusto on suunnattu?
-V: Sivusto on suunniteltu suvun yhteisen mökin varassysteemiksi.
+V: Sivusto on suunniteltu suvun yhteisen mökin varaussysteemiksi.
 
 2. Minkä hyödyn sivusto tuottaa kohderyhmälle?
 V: Sivustosta näkee minä päivinä mökki on varattu. Tosin se ei toimi vielä täysin.
