@@ -1,6 +1,7 @@
 const date = new Date();
 
 function lataaKalenteri(){
+    date.setDate(1);
 
     const monthDays = document.querySelector("#paivamaarat");
 
@@ -9,7 +10,7 @@ function lataaKalenteri(){
     const edellinenVikaPaiva = new Date(date.getFullYear(),date.getMonth(),0).getDate();
 
 
-    const ekaPaivaIndex = date.getDay() + 1;
+    const ekaPaivaIndex = date.getDay() - 1;
 
     const vikaPaivaIndex = new Date(date.getFullYear(),date.getMonth() + 1, 0).getDay();
 
