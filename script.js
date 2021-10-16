@@ -84,3 +84,4 @@ function uusiVaraus() {
 }
 
 document.getElementById("paivamaarat").addEventListener("click", uusiVaraus);
+
